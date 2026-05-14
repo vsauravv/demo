@@ -1,0 +1,197 @@
+Metric Name	Metric Key 
+Allocatable cores	cloud.gcp.kubernetes_io.node.cpu.allocatable_cores
+Allocatable ephemeral storage	cloud.gcp.kubernetes_io.node.ephemeral_storage.all
+Allocatable memory	cloud.gcp.kubernetes_io.node.memory.allocatable_byte
+Anonymous memory usage in Bytes	cloud.gcp.compute_googleapis_com.guest.memory.anony
+Available for failover	cloud.gcp.cloudsql_googleapis_com.database.available_for_failover
+Backend latencies	cloud.gcp.loadbalancing_googleapis_com.https.internal.backend_latencies
+Bytes transmitted	cloud.gcp.kubernetes_io.node.network.sent_bytes_count
+Bytes used	cloud.gcp.cloudsql_googleapis_com.database.disk.bytes_used
+Cloud SQL Connections	cloud.gcp.cloudsql_googleapis_com.database.network.connections
+Client Sent Bytes Count	cloud.gcp.istio_io.service.client.k8s_pod.sent_bytes_count
+Client Roundtrip Latencies	cloud.gcp.istio_io.service.client.k8s_pod.roundtrip_latencies
+Client Response Bytes	cloud.gcp.istio_io.service.client.k8s_pod.response_bytes
+Client Response Bytes	cloud.gcp.istio_io.service.client.k8s_pod.response_bytes
+Client Roundtrip Latencies	cloud.gcp.istio_io.service.client.gce_instance.roundtrip_latencies
+Client Roundtrip Latencies	cloud.gcp.istio_io.service.client.k8s_pod.roundtrip_latencies
+Client Sent Bytes Count	cloud.gcp.istio_io.service.client.gce_instance.sent_bytes_count
+Client Sent Bytes Count	cloud.gcp.istio_io.service.client.k8s_pod.sent_bytes_count
+Cloud SQL Connections	cloud.gcp.cloudsql_googleapis_com.database.network.connections
+Config Convergence Latencies	cloud.gcp.istio_io.control.config_convergence_latencies
+Config Event Count	cloud.gcp.istio_io.control.config_event_count
+Config Push Count	cloud.gcp.istio_io.control.config_push_count
+Config Validation Count	cloud.gcp.istio_io.control.config_validation_count
+CPU allocatable utilization	cloud.gcp.kubernetes_io.node.cpu.allocatable_utilization
+CPU limit utilization	cloud.gcp.kubernetes_io.container.cpu.limit_utilization
+CPU request utilization	cloud.gcp.kubernetes_io.container.cpu.request_utilization
+CPU reserved cores	cloud.gcp.cloudsql_googleapis_com.database.cpu.reserved_cores
+CPU usage	cloud.gcp.cloudsql_googleapis_com.database.cpu.usage_time.count
+CPU usage	cloud.gcp.compute_googleapis_com.guest.cpu.usage_time.count
+CPU usage	cloud.gcp.compute_googleapis_com.instance.cpu.usage_time.count
+CPU usage time	cloud.gcp.kubernetes_io.container.cpu.core_usage_time.count
+CPU usage time	cloud.gcp.kubernetes_io.node.cpu.core_usage_time.count
+CPU usage time	cloud.gcp.kubernetes_io.node_daemon.cpu.core_usage_time.count
+CPU utilization	cloud.gcp.cloudsql_googleapis_com.database.cpu.utilization
+CPU utilization	cloud.gcp.compute_googleapis_com.instance.cpu.utilization
+Dirty pages usage in Bytes.	cloud.gcp.compute_googleapis_com.guest.memory.dirty_used
+Disk bytes transferred	cloud.gcp.compute_googleapis_com.guest.disk.operation_bytes_count
+Disk operation time	cloud.gcp.compute_googleapis_com.guest.disk.operation_time.count
+Disk operations	cloud.gcp.compute_googleapis_com.guest.disk.operation_count
+Disk quota	cloud.gcp.cloudsql_googleapis_com.database.disk.quota
+Disk read bytes	cloud.gcp.compute_googleapis_com.instance.disk.read_bytes_count
+Disk read IO	cloud.gcp.cloudsql_googleapis_com.database.disk.read_ops_count
+Disk read operations	cloud.gcp.compute_googleapis_com.instance.disk.read_ops_count
+Disk usage in Bytes	cloud.gcp.compute_googleapis_com.guest.disk.bytes_used
+Disk utilization	cloud.gcp.cloudsql_googleapis_com.database.disk.utilization
+Disk write bytes	cloud.gcp.compute_googleapis_com.instance.disk.write_bytes_count
+Disk write IO	cloud.gcp.cloudsql_googleapis_com.database.disk.write_ops_count
+Disk write operations	cloud.gcp.compute_googleapis_com.instance.disk.write_ops_count
+Dropped bytes	cloud.gcp.compute_googleapis_com.firewall.dropped_bytes_count
+Dropped packets	cloud.gcp.compute_googleapis_com.firewall.dropped_packets_count
+Dropped packets	cloud.gcp.compute_googleapis_com.mirroring.dropped_packets_count
+Early Boot Validation	cloud.gcp.compute_googleapis_com.instance.integrity.early_boot_validation_status
+Egress bytes	cloud.gcp.loadbalancing_googleapis_com.l3.internal.egress_bytes_count
+Egress packets	cloud.gcp.loadbalancing_googleapis_com.l3.internal.egress_packets_count
+Ephemeral storage request	cloud.gcp.kubernetes_io.container.ephemeral_storage.request_bytes
+Ephemeral storage usage	cloud.gcp.kubernetes_io.container.ephemeral_storage.used_bytes
+Ephemeral storage usage	cloud.gcp.kubernetes_io.node.ephemeral_storage.used_bytes
+Execution time	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.aggregate.execution_time.count
+Free inodes	cloud.gcp.kubernetes_io.node.ephemeral_storage.inodes_free
+Ingress bytes	cloud.gcp.loadbalancing_googleapis_com.l3.internal.ingress_bytes_count
+Ingress packets	cloud.gcp.loadbalancing_googleapis_com.l3.internal.ingress_packets_count
+InnoDB dirty pages	cloud.gcp.cloudsql_googleapis_com.database.mysql.innodb_buffer_pool_pages_dirty
+InnoDB free pages	cloud.gcp.cloudsql_googleapis_com.database.mysql.innodb_buffer_pool_pages_free
+InnoDB fsync calls	cloud.gcp.cloudsql_googleapis_com.database.mysql.innodb_data_fsyncs.count
+InnoDB log fsync calls	cloud.gcp.cloudsql_googleapis_com.database.mysql.innodb_os_log_fsyncs.count
+InnoDB pages read	cloud.gcp.cloudsql_googleapis_com.database.mysql.innodb_pages_read.count
+InnoDB pages written	cloud.gcp.cloudsql_googleapis_com.database.mysql.innodb_pages_written.count
+InnoDB total pages	cloud.gcp.cloudsql_googleapis_com.database.mysql.innodb_buffer_pool_pages_total
+Instance state	cloud.gcp.cloudsql_googleapis_com.database.instance_state
+IO time	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.aggregate.io_time.count
+IO Time	cloud.gcp.compute_googleapis_com.guest.disk.io_time.count
+IO Time	cloud.gcp.compute_googleapis_com.guest.disk.weighted_io_time.count
+Lag bytes	cloud.gcp.cloudsql_googleapis_com.database.postgresql.replication.replica_byte_lag
+Late Boot Validation	cloud.gcp.compute_googleapis_com.instance.integrity.late_boot_validation_status
+Latency	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.aggregate.latencies
+Limit cores	cloud.gcp.kubernetes_io.container.cpu.limit_cores
+Log entries	cloud.gcp.logging.googleapis.com.log_entry_count
+Memory allocatable utilization	cloud.gcp.kubernetes_io.node.memory.allocatable_utilization
+Memory limit	cloud.gcp.kubernetes_io.container.memory.limit_bytes
+Memory limit utilization	cloud.gcp.kubernetes_io.container.memory.limit_utilization
+Memory quota	cloud.gcp.cloudsql_googleapis_com.database.memory.quota
+Memory request	cloud.gcp.kubernetes_io.container.memory.request_bytes
+Memory request utilization	cloud.gcp.kubernetes_io.container.memory.request_utilization
+Memory usage	cloud.gcp.cloudsql_googleapis_com.database.memory.usage
+Memory usage	cloud.gcp.kubernetes_io.container.memory.used_bytes
+Memory usage	cloud.gcp.kubernetes_io.node.memory.used_bytes
+Memory usage	cloud.gcp.kubernetes_io.node_daemon.memory.used_bytes
+Memory usage in Bytes	cloud.gcp.compute_googleapis_com.guest.memory.bytes_used
+Memory utilization	cloud.gcp.cloudsql_googleapis_com.database.memory.utilization
+Merged disk operations	cloud.gcp.compute_googleapis_com.guest.disk.merged_operation_count
+Mirrored bytes	cloud.gcp.compute_googleapis_com.mirroring.mirrored_bytes_count
+Mirrored packets	cloud.gcp.compute_googleapis_com.mirroring.mirrored_packets_count
+Network bytes received by MySQL	cloud.gcp.cloudsql_googleapis_com.database.mysql.received_bytes_count
+Network bytes sent by MySQL	cloud.gcp.cloudsql_googleapis_com.database.mysql.sent_bytes_count
+Number of transactions	cloud.gcp.cloudsql_googleapis_com.database.postgresql.transaction_count
+Page cache memory usage in Bytes	cloud.gcp.compute_googleapis_com.guest.memory.page_cache_used
+Page faults	cloud.gcp.kubernetes_io.container.memory.page_fault_count
+Peak disk read bytes	cloud.gcp.compute_googleapis_com.instance.disk.max_read_bytes_count.gauge
+Peak disk read ops	cloud.gcp.compute_googleapis_com.instance.disk.max_read_ops_count.gauge
+Peak disk write bytes	cloud.gcp.compute_googleapis_com.instance.disk.max_write_bytes_count.gauge
+Peak disk write ops	cloud.gcp.compute_googleapis_com.instance.disk.max_write_ops_count.gauge
+Per query affected rows	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.perquery.row_count
+Per query execution time	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.perquery.execution_time.count
+Per query IO time	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.perquery.io_time.count
+Per query latency	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.perquery.latencies
+Per query lock time	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.perquery.lock_time.count
+Per query shared blocks cache access	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.perquery.shared_blk_access_count
+Per tag affected rows	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.pertag.row_count
+Per tag execution time	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.pertag.execution_time.count
+Per tag IO time	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.pertag.io_time.count
+Per tag latency	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.pertag.latencies
+Per tag lock time	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.pertag.lock_time.count
+Per tag shared blocks cache accessed	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.pertag.shared_blk_access_count
+PID capacity	cloud.gcp.kubernetes_io.node.pid_limit
+PID usage	cloud.gcp.kubernetes_io.node.pid_used
+PostgreSQL Connections	cloud.gcp.cloudsql_googleapis_com.database.postgresql.num_backends
+Problem Count	cloud.gcp.compute_googleapis_com.guest.system.problem_count
+Problem State	cloud.gcp.compute_googleapis_com.guest.system.problem_state
+Proxy Clients	cloud.gcp.istio_io.control.proxy_clients
+Queries	cloud.gcp.cloudsql_googleapis_com.database.mysql.queries.count
+Query execution times	cloud.gcp.bigquery_googleapis_com.query.execution_times
+Questions	cloud.gcp.cloudsql_googleapis_com.database.mysql.questions.count
+Queue Length	cloud.gcp.compute_googleapis_com.guest.disk.queue_length
+Received bytes	cloud.gcp.cloudsql_googleapis_com.database.network.received_bytes_count
+Received bytes	cloud.gcp.compute_googleapis_com.instance.network.received_bytes_count
+Received packets	cloud.gcp.compute_googleapis_com.instance.network.received_packets_count
+Replication lag	cloud.gcp.cloudsql_googleapis_com.database.replication.replica_lag
+Request bytes	cloud.gcp.loadbalancing_googleapis_com.https.internal.request_bytes_count
+Request cores	cloud.gcp.kubernetes_io.container.cpu.request_cores
+Request count	cloud.gcp.loadbalancing_googleapis_com.https.internal.request_count
+Reserved vCPUs	cloud.gcp.compute_googleapis_com.instance.cpu.reserved_cores
+Response bytes	cloud.gcp.loadbalancing_googleapis_com.https.internal.response_bytes_count
+Restart count	cloud.gcp.kubernetes_io.container.restart_count
+RTT latencies	cloud.gcp.loadbalancing_googleapis_com.l3.internal.rtt_latencies
+Rule evaluations	cloud.gcp.firebasestorage_googleapis_com.rules.evaluation_count
+Runnable task count.	cloud.gcp.compute_googleapis_com.guest.cpu.runnable_task_count.gauge
+Sent bytes	cloud.gcp.cloudsql_googleapis_com.database.network.sent_bytes_count
+Sent bytes	cloud.gcp.compute_googleapis_com.instance.network.sent_bytes_count
+Sent packets	cloud.gcp.compute_googleapis_com.instance.network.sent_packets_count
+Server Connection Close Count	cloud.gcp.istio_io.service.server.gce_instance.connection_close_count
+Server Connection Close Count	cloud.gcp.istio_io.service.server.k8s_container.connection_close_count
+Server Connection Open Count	cloud.gcp.istio_io.service.server.gce_instance.connection_open_count
+Server Connection Open Count	cloud.gcp.istio_io.service.server.k8s_container.connection_open_count
+Server Received Bytes Count	cloud.gcp.istio_io.service.server.gce_instance.received_bytes_count
+Server Received Bytes Count	cloud.gcp.istio_io.service.server.k8s_container.received_bytes_count
+Server Request Bytes	cloud.gcp.istio_io.service.server.gce_instance.request_bytes
+Server Request Bytes	cloud.gcp.istio_io.service.server.k8s_container.request_bytes
+Server Request Count	cloud.gcp.istio_io.service.server.gce_instance.request_count
+Server Request Count	cloud.gcp.istio_io.service.server.k8s_container.request_count
+Server Response Bytes	cloud.gcp.istio_io.service.server.gce_instance.response_bytes
+Server Response Bytes	cloud.gcp.istio_io.service.server.k8s_container.response_bytes
+Server Response Latencies	cloud.gcp.istio_io.service.server.gce_instance.response_latencies
+Server Response Latencies	cloud.gcp.istio_io.service.server.k8s_container.response_latencies
+Server Sent Bytes Count	cloud.gcp.istio_io.service.server.gce_instance.sent_bytes_count
+Server Sent Bytes Count	cloud.gcp.istio_io.service.server.k8s_container.sent_bytes_count
+Server up	cloud.gcp.cloudsql_googleapis_com.database.up
+Shared blocks cache access	cloud.gcp.cloudsql_googleapis_com.database.postgresql.insights.aggregate.shared_blk_access_count
+Sidecar Injection Count	cloud.gcp.istio_io.control.sidecar_injection_count
+Slots used by project, reservation, and job type	cloud.gcp.bigquery_googleapis_com.slots.allocated
+Total cores	cloud.gcp.kubernetes_io.node.cpu.total_cores
+Total ephemeral storage	cloud.gcp.kubernetes_io.node.ephemeral_storage.total_bytes
+Total inodes	cloud.gcp.kubernetes_io.node.ephemeral_storage.inodes_total
+Total latencies	cloud.gcp.loadbalancing_googleapis_com.https.internal.total_latencies
+Total memory	cloud.gcp.kubernetes_io.node.memory.total_bytes
+Total memory usage	cloud.gcp.cloudsql_googleapis_com.database.memory.total_usage
+Unevictable memory usage in Bytes	cloud.gcp.compute_googleapis_com.guest.memory.unevictable_used
+Uptime	cloud.gcp.cloudsql_googleapis_com.database.uptime.count
+Uptime	cloud.gcp.compute_googleapis_com.guest.system.uptime
+Uptime	cloud.gcp.compute_googleapis_com.instance.uptime.count
+Uptime	cloud.gcp.kubernetes_io.container.uptime
+Uptime Total	cloud.gcp.compute_googleapis_com.instance.uptime_total
+VM Memory Total	cloud.gcp.compute_googleapis_com.instance.memory.balloon.ram_size
+VM Memory Used	cloud.gcp.compute_googleapis_com.instance.memory.balloon.ram_used
+VM Swap In	cloud.gcp.compute_googleapis_com.instance.memory.balloon.swap_in_bytes_count
+VM Swap Out	cloud.gcp.compute_googleapis_com.instance.memory.balloon.swap_out_bytes_count
+Volume capacity	cloud.gcp.kubernetes_io.pod.volume.total_bytes
+Volume usage	cloud.gcp.kubernetes_io.pod.volume.used_bytes
+Volume utilization	cloud.gcp.kubernetes_io.pod.volume.utilization
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_AsynchronousMetricsCalculationTimeSpent.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_AsynchronousMetricsCalculationTimeSpent.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_AsynchronousMetricsUpdateInterval.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_AsynchronousMetricsUpdateInterval.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_dm_0.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_dm_0.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sda.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sda.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sdb.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sdb.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sdc.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sdc.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sdd.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sdd.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sde.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTime_sde.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTimePerOp_sdd.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTimePerOp_sdd.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTimePerOp_sde.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockActiveTimePerOp_sde.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockInFlightOps_sdd.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockInFlightOps_sdd.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockInFlightOps_sde.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockInFlightOps_sde.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_dm_0.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_dm_0.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sda.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sda.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sdb.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sdb.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sdc.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sdc.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sdd.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sdd.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sde.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTime_sde.gauge
+cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTimePerOp_sdd.gauge	cloud.gcp.prometheus_googleapis_com.ClickHouseAsyncMetrics_BlockQueueTimePerOp_sdd.gauge
